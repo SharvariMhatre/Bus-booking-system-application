@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "279016897268",
+    "project_id": "busbook-7",
+    "storage_bucket": "busbook-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279016897268:android:2d4a82acd0755f7183fca1",
+        "android_client_info": {
+          "package_name": "com.example.busbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279016897268-spcsv2sqnh4o4j43op05liuujem5ql65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaDFOiTmKETBgbnYqdbSo1sYbLw7SQ0X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279016897268-spcsv2sqnh4o4j43op05liuujem5ql65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

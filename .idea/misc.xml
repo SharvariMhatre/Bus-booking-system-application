@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/BusBook - Copy/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook - Copy/app/src/main/res/layout/profile_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook - Copy/app/src/main/res/layout/registration_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable-v24/buttonshape.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/button_shape.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/buttonshape.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_arrow_back_white_24dp.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_person_pin_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_baseline_theaters_24.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/ic_swap_horiz_white_24dp.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/loc_btn.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/drawable/seat_selection.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/font/font.xml" value="0.23020833333333332" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/booking_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/bus_search_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/bus_selection_page.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/finalpage.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/location.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/location_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/locationpage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/login_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/loginpage.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/profile_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/registration_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/BusBook/app/src/main/res/layout/ticketconfirmationpage.xml" value="0.33" />
+        <entry key="..\:/New folder/BusBook - Copy-20211110T143419Z-001/BusBook - Copy/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/New folder/BusBook - Copy-20211110T143419Z-001/BusBook - Copy/app/src/main/res/layout/booking_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/BusBook - Copy-20211110T143419Z-001/BusBook - Copy/app/src/main/res/layout/profile_page.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

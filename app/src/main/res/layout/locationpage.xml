@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVlatt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="latitude:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TVlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="longitude:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Tvadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address line:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TVloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locality:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TVcountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country:"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/calibri"
+            android:text="Get Location"
+            android:textColor="@color/button_color"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
