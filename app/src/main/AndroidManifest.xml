@@ -14,35 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusBook">
         <activity
-            android:name=".FinalpageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".TicketconfirmationpageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LocationpageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ProfilePageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BusSelectionPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BookingPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BusSearchPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".RegistrationPageActivity"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.busbook.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/activity_main"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_search"
+            app:destination="@id/searchFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.busbook.ui.register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/registration_page"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_register_to_profile"
+            app:destination="@id/profileFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.busbook.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/bus_search_page"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_search_to_selection"
+            app:destination="@id/selectionFragment" />
+        <action
+            android:id="@+id/action_search_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.example.busbook.ui.selection.BusSelectionFragment"
+        android:label="Select Bus"
+        tools:layout="@layout/bus_selection_page"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_selection_to_booking"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.example.busbook.ui.booking.BookingFragment"
+        android:label="Choose Seat"
+        tools:layout="@layout/booking_page"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_booking_to_confirmation"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.example.busbook.ui.confirmation.TicketConfirmationFragment"
+        android:label="Confirm Ticket"
+        tools:layout="@layout/ticketconfirmationpage"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_confirmation_to_final"
+            app:destination="@id/finalFragment"
+            app:popUpTo="@id/searchFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.example.busbook.ui.finalpage.FinalFragment"
+        android:label="Done"
+        tools:layout="@layout/finalpage"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_final_to_search"
+            app:destination="@id/searchFragment"
+            app:popUpTo="@id/searchFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.busbook.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_page"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_profile_to_location"
+            app:destination="@id/locationFragment" />
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.busbook.ui.location.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/locationpage"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+</navigation>
