@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import missing.namespace.R;
+
 public class BookingPageActivity extends AppCompatActivity {
 
     TextView location_3, location_4, display_date_1_1, display_t1, display_t2, display_t3, display_t4, display_t5, desti_5, desti_6, date_display_2, dc1, dc2, dc3, dc4, dc5;
