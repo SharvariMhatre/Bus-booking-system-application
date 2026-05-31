@@ -8,6 +8,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.busbook'
     compileSdk 31
 
     defaultConfig {
